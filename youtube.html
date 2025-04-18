@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My YouTube Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .video {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .video iframe {
+      width: 100%;
+      height: 180px;
+      border-radius: 6px;
+    }
+
+    .video h3 {
+      margin: 10px 0 5px;
+      font-size: 16px;
+    }
+
+    .video p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    @media (max-width: 900px) {
+      .video-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .video-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My YouTube Video Gallery</h1>
+
+  <div class="video-grid">
+
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hAllPDaZkBo?si=NjGuhGxdtJkb0Zh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      <h3>Maand</h3>
+      <p>Maand (Lyrics) - Bayaan, Hasan Raheem, Rovalio</p>
+    </div>
+
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" allowfullscreen></iframe>
+      <h3>Imagine Dragons - Believer</h3>
+      <p>A powerful anthem with strong vocals and electrifying energy by Imagine Dragons.</p>
+    </div>
+
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+      <h3>Sesame Street: Elmo's Song</h3>
+      <p>A fun and catchy children’s tune sung by Elmo with his friends on Sesame Street.</p>
+    </div>
+
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jX6CKPkZOQo?si=Piuz50rEDERkwOGL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  <h3>Chris gayle</h3>    <p>Chrish Gayle 175* l RCB VS PWI PEPSI IPL 2013 l</p>
+    </div>
+
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/60ItHLz5WEA" allowfullscreen></iframe>
+      <h3>Alan Walker - Faded</h3>
+      <p>A hauntingly beautiful track that captivated millions with its melody and visuals.</p>
+    </div>
+
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/9bZkp7q19f0" allowfullscreen></iframe>
+      <h3>PSY - Gangnam Style</h3>
+      <p>The viral K-pop hit that introduced the world to Korean dance-pop madness.</p>
+    </div>
+
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Bj_1GpQtsgI?si=hsjNnCxGeIqpGfPC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      <h3>ronaldo masterclass</h3>
+      <p>Arsenal vs Manchester United: Extended Highlights | UCL Semi-Finals 2nd Leg |</p>
+    </div>
+
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/LtU1Q5cyoAU?si=Z0NULgNK1UqDn1EM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      <h3>Real madrid Heroic comback</h3>
+      <p>Rodrygo and Benzema lead Real Madrid in a historic comeback against Manchester City in UCL 2021-22</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
