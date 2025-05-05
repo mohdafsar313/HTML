@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      nav {
+        background-color: black;
+        color: white;
+        width: 100%;
+        position: fixed; 
+        top: 0; 
+        z-index: 1000; 
+      }
+      li {
+        display: inline;
+        margin: 30px;
+      }
+      div {
+        border: solid;
+      }
+      #About,
+      #Contact,
+      #Gallery {
+        height: 100vh;
+        width: 100%;
+        background-color: burlywood;
+        color: black;
+      }
+
+      
+      .top-btn {
+        position: fixed;
+        bottom: 40px;
+        right: 30px;
+        z-index: 99;
+        font-size: 16px;
+        background-color: black;
+        color: burlywood;
+        padding: 10px 15px;
+        border-radius: 10px;
+        text-decoration: none;
+      }
+
+      .top-btn:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <a id="top"></a>
+
+    <nav>
+      <ul type="none">
+        <li><i class="fa-solid fa-house" style="color: #eff1f5;"></i>HOME</li>
+        <li><a href="#About" style="color: white"><i class="fa-solid fa-plus" style="color: #ebeef4;"></i>ABOUT</a></li>
+        <li><a href="#Contact" style="color: white"><i class="fa-solid fa-address-book" style="color: #edeff2;"></i>CONTACT</a></li>
+        <li><a href="#Gallery" style="color: white"><i class="fa-solid fa-image" style="color: #eff1f6;"></i>GALLERY</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <div id="About">About</div>
+      <div id="Contact">Contact</div>
+      <div id="Gallery">Gallery</div>
+    </section>
+
+   
+    <a href="#top" class="top-btn" title="Go to top">Top</a>
+  </body>
+</html>
